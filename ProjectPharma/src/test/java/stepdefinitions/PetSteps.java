@@ -59,5 +59,6 @@ public class PetSteps {
 		Assert.assertEquals(expectedTitle, title);
 		
 		//driver.close();
+		driver.get("https://int1-www.petco.com/shop/en/petcostore/product/credelio-chewable-tablet-for-dogs-44-6-lbs-3-month-supply-3378332");
 	}
 }

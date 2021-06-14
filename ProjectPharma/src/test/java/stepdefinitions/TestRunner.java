@@ -12,8 +12,8 @@ import io.cucumber.junit.Cucumber;
 		features="src/test/java/resources/logincreateorder.feature",				
 		glue= {"stepdefinitions"},
 		plugin = { "pretty", "html:target/cucumber-reports","junit:target/junitXMLReports/Cucumber.xml"},
-		monochrome = true
-		
+		monochrome = true,
+		dryRun = true
 		)
 
 
